@@ -341,10 +341,10 @@
 
                                               <div class="col-sm-12">
                                                   <label for="">Status</label> <br>
-                                                  <label class="checkbox-inline"><input  name ="job_status_1" type="checkbox" value="Employed">Employed </label>
-                                                  <label class="checkbox-inline"><input  name ="job_status_1" type="checkbox" value="Self">Self Employed</label>
-                                                  <label class="checkbox-inline"><input  name ="job_status_1" type="checkbox" value="Retired">Retired</label>
-                                                  <label class="checkbox-inline"><input  name ="job_status_1" type="checkbox" value="Unemployed">Unemployed</label>
+                                                  <label class="checkbox-inline"><input  name ="job_status_1" type="radio" value="Employed">Employed </label>
+                                                  <label class="checkbox-inline"><input  name ="job_status_1" type="radio" value="Self">Self Employed</label>
+                                                  <label class="checkbox-inline"><input  name ="job_status_1" type="radio" value="Retired">Retired</label>
+                                                  <label class="checkbox-inline"><input  name ="job_status_1" type="radio" value="Unemployed">Unemployed</label>
                                               </div>
 
                                               <div class="col-sm-12">
@@ -353,13 +353,13 @@
                                               </div>
                                               <div class="col-sm-12">
                                                   <label for="">UK resident</label>
-                                                   <label class="checkbox-inline"><input name ="Employed_1" type="checkbox" value="Yes">Yes </label>
-                                                  <label class="checkbox-inline"><input name ="Employed_1" type="checkbox" value="No">No</label>
+                                                   <label class="checkbox-inline"><input name ="Employed_1" type="radio" value="Yes">Yes </label>
+                                                  <label class="checkbox-inline"><input name ="Employed_1" type="radio" value="No">No</label>
                                               </div>
                                               <div class="col-sm-12">
                                                   <label for="">Work or live abroad</label>
-                                                  <label class="checkbox-inline"><input name ="abroad_1" type="checkbox" value="Yes">Yes </label>
-                                                  <label class="checkbox-inline"><input name ="abroad_1" type="checkbox" value="No">No</label>
+                                                  <label class="checkbox-inline"><input name ="abroad_1" type="radio" value="Yes">Yes </label>
+                                                  <label class="checkbox-inline"><input name ="abroad_1" type="radio" value="No">No</label>
                                               </div>
                                              
                                           </div> 
@@ -377,10 +377,10 @@
 
                                               <div class="col-sm-12">
                                                   <label for="">Status</label> <br>
-                                                  <label class="checkbox-inline"><input  name ="job_status_2" type="checkbox" value="Employed">Employed </label>
-                                                  <label class="checkbox-inline"><input  name ="job_status_2" type="checkbox" value="Self">Self Employed</label>
-                                                  <label class="checkbox-inline"><input  name ="job_status_2" type="checkbox" value="Retired">Retired</label>
-                                                  <label class="checkbox-inline"><input  name ="job_status_2" type="checkbox" value="Unemployed">Unemployed</label>
+                                                  <label class="checkbox-inline"><input  name ="job_status_2" type="radio" value="Employed">Employed </label>
+                                                  <label class="checkbox-inline"><input  name ="job_status_2" type="radio" value="Self">Self Employed</label>
+                                                  <label class="checkbox-inline"><input  name ="job_status_2" type="radio" value="Retired">Retired</label>
+                                                  <label class="checkbox-inline"><input  name ="job_status_2" type="radio" value="Unemployed">Unemployed</label>
                                               </div>
 
                                               <div class="col-sm-12">
@@ -389,13 +389,13 @@
                                               </div>
                                               <div class="col-sm-12">
                                                   <label for="">UK resident</label>
-                                                   <label class="checkbox-inline"><input name ="Employed_2" type="checkbox" value="Yes">Yes </label>
-                                                  <label class="checkbox-inline"><input name ="Employed_2" type="checkbox" value="No">No</label>
+                                                   <label class="checkbox-inline"><input name ="Employed_2" type="radio" value="Yes">Yes </label>
+                                                  <label class="checkbox-inline"><input name ="Employed_2" type="radio" value="No">No</label>
                                               </div>
                                               <div class="col-sm-12">
                                                   <label for="">Work or live abroad</label>
-                                                  <label class="checkbox-inline"><input name ="abroad_2" type="checkbox" value="Yes">Yes </label>
-                                                  <label class="checkbox-inline"><input name ="abroad_2" type="checkbox" value="No">No</label>
+                                                  <label class="checkbox-inline"><input name ="abroad_2" type="radio" value="Yes">Yes </label>
+                                                  <label class="checkbox-inline"><input name ="abroad_2" type="radio" value="No">No</label>
                                               </div>
                                              
                                           </div>
