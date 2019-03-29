@@ -129,7 +129,105 @@
                               <div class="tab-content">
                                   <div class="tab-pane" id="one">
                                     <div class="row">
-                                 <h5 class="info-text"> partner</h5>
+                                 <h5 class="info-text"> Personal Info</h5>
+                                  
+                                    <div class="col-sm-12">
+                                      
+
+                                     <div class="row" id="persona;_section">
+                                          <div class="col-sm-6">
+                                             <h3 class="info-text"> Customer 1</h3>
+                                              <div class="col-sm-6">
+                                                  <label for="">Title</label>
+
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+
+
+                                              <div class="col-sm-6">
+                                                  <label for="">Surname</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+
+                                              <div class="col-sm-6">
+                                                  <label for="">Sex</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Dob</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Age</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Marital status</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Home</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Mobile</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-12">
+                                                  <label for="">Email</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                             
+                                          </div> 
+
+                                          <div class="col-sm-6">
+                                             <h3 class="info-text"> Customer 2</h3>
+                                              <div class="col-sm-6">
+                                                  <label for="">Title</label>
+
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+
+
+                                              <div class="col-sm-6">
+                                                  <label for="">Surname</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+
+                                              <div class="col-sm-6">
+                                                  <label for="">Sex</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Dob</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Age</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Marital status</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Home</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Mobile</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-12">
+                                                  <label for="">Email</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                             
+                                          </div>
+                                      </div>
+                                    </div>
+
+                                 <h5 class="info-text"> Partner</h5>
                                 
                                  <div class="col-sm-12">
 
