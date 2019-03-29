@@ -200,6 +200,10 @@
                                                   <label for="">Email</label>
                                                   <input type="text"  name="Email" class="form-control"  id="" value="">
                                               </div>
+                                              <div class="col-sm-12">
+                                                  <label for="">Relationship to customer 1</label>
+                                                  <input type="text"  name="Relationship_to_customer_1" class="form-control"  id="" value="">
+                                              </div>
                                             </div>
 
                                   </div>
