@@ -73,7 +73,35 @@
                                 <div class="progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="3" style="width: 21%;"></div>
                            </div>
                            <ul>
-                                     <li>
+                              
+
+                              <li>
+                                 <a href="#p_info" data-toggle="tab">
+                                    <div class="icon-circle">
+                                      
+                                </div>
+                                 Basic details
+                                
+                                 </a>
+                              </li>
+
+                              <li>
+                                 <a href="#b_info" data-toggle="tab">
+                                    <div class="icon-circle">
+                                      
+                                </div>
+                                  Personal Info
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#e_info" data-toggle="tab">
+                                    <div class="icon-circle">
+                                      
+                                </div>
+                                 Employment Details
+                                 </a>
+                              </li>
+                              <li>
                                  <a href="#one" data-toggle="tab">
                                     <div class="icon-circle">
                                       
@@ -127,9 +155,58 @@
                           </ul>
                         </div>
                               <div class="tab-content">
-                                  <div class="tab-pane" id="one">
-                                    <div class="row">
-                                 <h5 class="info-text"> Personal Info</h5>
+                                  <div class="tab-pane" id="p_info">
+                                        
+                                        <div class="col-md-12"> 
+
+                                             <h3 class="info-text"> Basic Details</h3>
+                                              <div class="col-sm-6">
+                                                  <label for="">Address</label>
+
+                                                  <input type="text " name="Address" Title-hens" class="form-control"  id="" value="">
+                                              </div>
+
+
+                                              <div class="col-sm-6">
+                                                  <label for="">Postcode</label>
+                                                  <input type="text"  name="Postcode" class="form-control"  id="" value="">
+                                              </div>
+
+                                              <div class="col-sm-6">
+                                                  <label for="">Sex</label>
+                                                  <input type="text"  name="Sex" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Dob</label>
+                                                  <input type="text"  name="Dob" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Age</label>
+                                                  <input type="text"  name="Age" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Marital status</label>
+                                                  <input  type="Marital name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Home</label>
+                                                  <input type="text"  name="Home" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Mobile</label>
+                                                  <input type="text"  name="Mobile" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-12">
+                                                  <label for="">Email</label>
+                                                  <input type="text"  name="Email" class="form-control"  id="" value="">
+                                              </div>
+                                            </div>
+
+                                  </div>
+                                  <div class="tab-pane" id="b_info">
+
+
+                                        <h5 class="info-text">Personal Info</h5>
                                   
                                     <div class="col-sm-12">
                                       
@@ -140,42 +217,42 @@
                                               <div class="col-sm-6">
                                                   <label for="">Title</label>
 
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text " name="Title" Title-hens" class="form-control"  id="" value="">
                                               </div>
 
 
                                               <div class="col-sm-6">
                                                   <label for="">Surname</label>
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text"  name="Surname" class="form-control"  id="" value="">
                                               </div>
 
                                               <div class="col-sm-6">
                                                   <label for="">Sex</label>
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text"  name="Sex" class="form-control"  id="" value="">
                                               </div>
                                               <div class="col-sm-6">
                                                   <label for="">Dob</label>
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text"  name="Dob" class="form-control"  id="" value="">
                                               </div>
                                               <div class="col-sm-6">
                                                   <label for="">Age</label>
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text"  name="Age" class="form-control"  id="" value="">
                                               </div>
                                               <div class="col-sm-6">
                                                   <label for="">Marital status</label>
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input  type="Marital name="french-hens" class="form-control"  id="" value="">
                                               </div>
                                               <div class="col-sm-6">
                                                   <label for="">Home</label>
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text"  name="Home" class="form-control"  id="" value="">
                                               </div>
                                               <div class="col-sm-6">
                                                   <label for="">Mobile</label>
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text"  name="Mobile" class="form-control"  id="" value="">
                                               </div>
                                               <div class="col-sm-12">
                                                   <label for="">Email</label>
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text"  name="Email" class="form-control"  id="" value="">
                                               </div>
                                              
                                           </div> 
@@ -185,26 +262,26 @@
                                               <div class="col-sm-6">
                                                   <label for="">Title</label>
 
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text" name="Title" class="form-control"  id="" value="">
                                               </div>
 
 
                                               <div class="col-sm-6">
                                                   <label for="">Surname</label>
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text"  name="Surname" class="form-control"  id="" value="">
                                               </div>
 
                                               <div class="col-sm-6">
                                                   <label for="">Sex</label>
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text"  name="Sex" class="form-control"  id="" value="">
                                               </div>
                                               <div class="col-sm-6">
                                                   <label for="">Dob</label>
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text"  name="Dob" class="form-control"  id="" value="">
                                               </div>
                                               <div class="col-sm-6">
                                                   <label for="">Age</label>
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text"  name="Age" class="form-control"  id="" value="">
                                               </div>
                                               <div class="col-sm-6">
                                                   <label for="">Marital status</label>
@@ -212,21 +289,128 @@
                                               </div>
                                               <div class="col-sm-6">
                                                   <label for="">Home</label>
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text"  name="Home" class="form-control"  id="" value="">
                                               </div>
                                               <div class="col-sm-6">
                                                   <label for="">Mobile</label>
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text"  name="Mobile" class="form-control"  id="" value="">
                                               </div>
                                               <div class="col-sm-12">
                                                   <label for="">Email</label>
-                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                                  <input type="text"  name="Email" class="form-control"  id="" value="">
                                               </div>
                                              
                                           </div>
+                                          <div class="clearfix">  </div>
+                                          <div class="col-sm-10 col-sm-offset-1">
+                                                  <label for="">Notes</label>
+                                                  <textarea name="note" class="form-control"  id="" value=""></textarea>
+                                                  <br> 
+                                              </div>
+
                                       </div>
                                     </div>
 
+                                  </div>
+
+
+                                  <!-- employement history -->
+                                  <div class="tab-pane" id="e_info">
+
+                                    <div class="row"> 
+                                         <div class="col-sm-12">
+                                      
+
+                                     <div class="row" id="persona;_section">
+                                          <span class="block"> 
+                                            Details of Employment
+                                             </span>   
+                                          <div class="col-sm-6">
+                                             <h3 class="info-text"> Customer 1</h3>
+
+                                              <div class="col-sm-12">
+                                                  <label for="">Occupation</label>
+
+                                                  <input type="text " name="Occupation" Title-hens" class="form-control"  id="" value="">
+                                              </div>
+
+
+                                              <div class="col-sm-12">
+                                                  <label for="">Status</label> <br>
+                                                  <label class="checkbox-inline"><input  name ="job_status_1" type="checkbox" value="Employed">Employed </label>
+                                                  <label class="checkbox-inline"><input  name ="job_status_1" type="checkbox" value="Self">Self Employed</label>
+                                                  <label class="checkbox-inline"><input  name ="job_status_1" type="checkbox" value="Retired">Retired</label>
+                                                  <label class="checkbox-inline"><input  name ="job_status_1" type="checkbox" value="Unemployed">Unemployed</label>
+                                              </div>
+
+                                              <div class="col-sm-12">
+                                                  <label for="">Employer’s name</label>
+                                                  <input type="text"  name="Sex" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-12">
+                                                  <label for="">UK resident</label>
+                                                   <label class="checkbox-inline"><input name ="Employed_1" type="checkbox" value="Yes">Yes </label>
+                                                  <label class="checkbox-inline"><input name ="Employed_1" type="checkbox" value="No">No</label>
+                                              </div>
+                                              <div class="col-sm-12">
+                                                  <label for="">Work or live abroad</label>
+                                                  <label class="checkbox-inline"><input name ="abroad_1" type="checkbox" value="Yes">Yes </label>
+                                                  <label class="checkbox-inline"><input name ="abroad_1" type="checkbox" value="No">No</label>
+                                              </div>
+                                             
+                                          </div> 
+
+                                          <div class="col-sm-6">
+
+                                             <h3 class="info-text"> Customer 1</h3>
+
+                                              <div class="col-sm-12">
+                                                  <label for="">Occupation</label>
+
+                                                  <input type="text " name="Occupation" Title-hens" class="form-control"  id="" value="">
+                                              </div>
+
+
+                                              <div class="col-sm-12">
+                                                  <label for="">Status</label> <br>
+                                                  <label class="checkbox-inline"><input  name ="job_status_2" type="checkbox" value="Employed">Employed </label>
+                                                  <label class="checkbox-inline"><input  name ="job_status_2" type="checkbox" value="Self">Self Employed</label>
+                                                  <label class="checkbox-inline"><input  name ="job_status_2" type="checkbox" value="Retired">Retired</label>
+                                                  <label class="checkbox-inline"><input  name ="job_status_2" type="checkbox" value="Unemployed">Unemployed</label>
+                                              </div>
+
+                                              <div class="col-sm-12">
+                                                  <label for="">Employer’s name</label>
+                                                  <input type="text"  name="Sex" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-12">
+                                                  <label for="">UK resident</label>
+                                                   <label class="checkbox-inline"><input name ="Employed_2" type="checkbox" value="Yes">Yes </label>
+                                                  <label class="checkbox-inline"><input name ="Employed_2" type="checkbox" value="No">No</label>
+                                              </div>
+                                              <div class="col-sm-12">
+                                                  <label for="">Work or live abroad</label>
+                                                  <label class="checkbox-inline"><input name ="abroad_2" type="checkbox" value="Yes">Yes </label>
+                                                  <label class="checkbox-inline"><input name ="abroad_2" type="checkbox" value="No">No</label>
+                                              </div>
+                                             
+                                          </div>
+                                          <div class="clearfix">  </div>
+                                          <div class="col-sm-10 col-sm-offset-1">
+                                                  <label for="">Notes</label>
+                                                  <textarea name="note" class="form-control"  id="" value=""></textarea>
+                                                  <br> 
+                                              </div>
+
+                                      </div>
+                                    </div>
+                                    </div>
+                                  </div>         
+
+
+                                  <div class="tab-pane" id="one">
+                                    <div class="row">
+                             
                                  <h5 class="info-text"> Partner</h5>
                                 
                                  <div class="col-sm-12">
