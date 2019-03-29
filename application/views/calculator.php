@@ -129,7 +129,105 @@
                               <div class="tab-content">
                                   <div class="tab-pane" id="one">
                                     <div class="row">
-                                 <h5 class="info-text"> partner</h5>
+                                 <h5 class="info-text"> Personal Info</h5>
+                                  
+                                    <div class="col-sm-12">
+                                      
+
+                                     <div class="row" id="persona;_section">
+                                          <div class="col-sm-6">
+                                             <h3 class="info-text"> Customer 1</h3>
+                                              <div class="col-sm-6">
+                                                  <label for="">Title</label>
+
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+
+
+                                              <div class="col-sm-6">
+                                                  <label for="">Surname</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+
+                                              <div class="col-sm-6">
+                                                  <label for="">Sex</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Dob</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Age</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Marital status</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Home</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Mobile</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-12">
+                                                  <label for="">Email</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                             
+                                          </div> 
+
+                                          <div class="col-sm-6">
+                                             <h3 class="info-text"> Customer 2</h3>
+                                              <div class="col-sm-6">
+                                                  <label for="">Title</label>
+
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+
+
+                                              <div class="col-sm-6">
+                                                  <label for="">Surname</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+
+                                              <div class="col-sm-6">
+                                                  <label for="">Sex</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Dob</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Age</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Marital status</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Home</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <label for="">Mobile</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                              <div class="col-sm-12">
+                                                  <label for="">Email</label>
+                                                  <input type="text" name="french-hens" class="form-control"  id="" value="">
+                                              </div>
+                                             
+                                          </div>
+                                      </div>
+                                    </div>
+
+                                 <h5 class="info-text"> Partner</h5>
                                 
                                  <div class="col-sm-12">
 
@@ -475,11 +573,11 @@
                 $('#mortgage_counted').html('£0 to repay your mortgage');
 
                 var cover_value = $('#life_cover_html').data('cover_value');
-                cover_value = Number(cover_value)-Number(mrotgage_val);
+                cover_value = Number(cover_value)-Number(mortgage_value);
                 $('#life_cover_html').data('cover_value',cover_value);
 
                 $('#life_cover_html').html('£'+cover_value);
-                  console.log(cover_value);
+
                }else{
 
                 $('.have-mortgage').fadeIn();
@@ -536,7 +634,7 @@
 
              $(document).on('change', '#debt', function(event) {
                 var debt = $('#debt').val();
-                $('#savings_counted').html('£'+debt+' to cover your other debts');
+                $('#mortgage_counted').html('£'+debt+' to cover your other debts');
 
                 var cover_value = $('#life_cover_html').data('cover_value');
                 cover_value = Number(cover_value)+Number(debt);
@@ -547,11 +645,10 @@
 
              $(document).on('change', '#savings', function(event) {
                 var savings = $('#savings').val();
-                $('#debts_counted').html('Less £'+savings+' you have in savings');
+                $('#mortgage_counted').html('Less £'+savings+' you have in savings');
 
                 var cover_value = $('#life_cover_html').data('cover_value');
-                cover_value = Number(cover_value)-Number(savings);
-
+                cover_value = Number(cover_value)+Number(savings);
                 $('#life_cover_html').data('cover_value',cover_value);
 
                  $('#life_cover_html').html('£'+cover_value);
