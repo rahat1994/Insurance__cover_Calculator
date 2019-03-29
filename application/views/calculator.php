@@ -475,11 +475,11 @@
                 $('#mortgage_counted').html('£0 to repay your mortgage');
 
                 var cover_value = $('#life_cover_html').data('cover_value');
-                cover_value = Number(cover_value)-Number(mortgage_value);
+                cover_value = Number(cover_value)-Number(mrotgage_val);
                 $('#life_cover_html').data('cover_value',cover_value);
 
                 $('#life_cover_html').html('£'+cover_value);
-
+                  console.log(cover_value);
                }else{
 
                 $('.have-mortgage').fadeIn();
@@ -536,7 +536,7 @@
 
              $(document).on('change', '#debt', function(event) {
                 var debt = $('#debt').val();
-                $('#mortgage_counted').html('£'+debt+' to cover your other debts');
+                $('#savings_counted').html('£'+debt+' to cover your other debts');
 
                 var cover_value = $('#life_cover_html').data('cover_value');
                 cover_value = Number(cover_value)+Number(debt);
@@ -547,10 +547,11 @@
 
              $(document).on('change', '#savings', function(event) {
                 var savings = $('#savings').val();
-                $('#mortgage_counted').html('Less £'+savings+' you have in savings');
+                $('#debts_counted').html('Less £'+savings+' you have in savings');
 
                 var cover_value = $('#life_cover_html').data('cover_value');
-                cover_value = Number(cover_value)+Number(savings);
+                cover_value = Number(cover_value)-Number(savings);
+
                 $('#life_cover_html').data('cover_value',cover_value);
 
                  $('#life_cover_html').html('£'+cover_value);
